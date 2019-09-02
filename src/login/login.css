@@ -1,0 +1,71 @@
+@import '~antd/dist/antd.css';
+body{
+  background-image: url(https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1563257521&di=b4d96dfbe93dc6789e13eddd6c4db99a&imgtype=jpg&er=1&src=http%3A%2F%2Fb.zol-img.com.cn%2Fsoft%2F5%2F847%2Fce8wO9xMfFGr2.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+#login {
+  position: absolute;
+  left: 38%;
+  top: 25%;
+  width: 340px;
+  height: 300px;
+  background-color:rgba(230, 224, 226, 0.709);
+  padding: 20px;
+  border-radius: 5%;
+
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+#components-form-demo-normal-login .login-form {
+  max-width: 300px;
+}
+
+#components-form-demo-normal-login .login-form-forgot {
+  float: right;
+}
+
+#components-form-demo-normal-login .login-form-button {
+  width: 100%;
+
+}
+.login-form-forgot{
+  float: right;
+}
+.login-form-button {
+  width: 100%;
+}

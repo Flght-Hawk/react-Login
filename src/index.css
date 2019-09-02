@@ -1,0 +1,46 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.slick-track{
+  height: 450px;
+}
+
+.ant-carousel .slick-slide {
+  text-align: center;
+  overflow: hidden;
+}
+
+.ant-carousel .slick-slide h3 {
+  color: #fff;
+}
+#box1{
+  height: 450px;
+  background-image: url(https://img.alicdn.com/simba/img/TB1siqtcL1H3KVjSZFHSuvKppXa.jpg);
+  background-size: 100% 100%;
+}
+#box2{
+  height: 450px;
+  background-image: url(https://img.alicdn.com/simba/img/TB13NH.XUGF3KVjSZFoSuvmpFXa.jpg);
+  background-size: 100% 100%;
+
+}
+#box3{
+  height: 450px;
+  background-size: 100% 100%;
+  background-image: url(https://gtms04.alicdn.com/tps/i4/TB1KPbtcfBj_uVjSZFpSuw0SXXa.jpg_.webp)
+}
+#box4{
+  height: 450px;
+  background-size: 100% 100%;
+  background-image: url(https://img10.360buyimg.com/babel/s590x470_jfs/t1/64887/29/3617/91048/5d1d6461E8ab6831c/e50728e7746010cd.jpg!q90!cc_590x470.webp)
+}
